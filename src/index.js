@@ -30,6 +30,31 @@ module.exports = function toReadable (number) {
                 case 0:
                 return 'zero';
                 break;
+                case 10:
+                return 'ten';
+                break;
+                case 11:
+                return 'eleven';
+                break;
+                case 12:
+                return 'twelve';
+                break;
+                case 13:
+                return 'thirteen';
+                break;
+                case 14:
+                return 'fourteen';
+                break;
+                case 15:
+                return 'fifteen';
+                break;
+                case 18:
+                return 'eighteen';
+                break;
+                case 20:
+                return 'twenty';
+                break;
+
                 default:
                     return 'mistake';
     }
