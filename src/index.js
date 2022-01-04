@@ -1,5 +1,5 @@
 module.exports = function toReadable (number) {
-    switch (number){
+    /*switch (number){
         case 1:
             return 'one';
             break;
@@ -56,6 +56,50 @@ module.exports = function toReadable (number) {
                 break;
 
                 default:
-                    return 'mistake';
+                    //return 'mistake';
+    }*/
+    function showNumber (single_digit) {
+        switch (single_digit){
+            case 1:
+                return 'one';
+                break;
+                case 2:
+                    return 'two';
+                    break;
+                    case 3:
+                    return 'three';
+                    break;
+                    case 4:
+                    return 'four';
+                    break;
+                    case 5:
+                    return 'five';
+                    break;
+                    case 6:
+                    return 'six';
+                    break;
+                    case 7:
+                    return 'seven';
+                    break;
+                    case 8:
+                    return 'eight';
+                    break;
+                    case 9:
+                    return 'nine';
+                    break;
+                    case 0:
+                    return 'zero';
+                    break;
+                    default:
+
+    }}
+    if (number>20&&number<30){
+        let second_number = number.toString().split('').pop();
+        let two_number = showNumber(+second_number);
+        return `twenty ${two_number}`;
     }
+    
+    
 }
+
+
